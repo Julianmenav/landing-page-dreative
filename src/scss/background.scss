@@ -1,0 +1,26 @@
+#bg-container{
+    z-index: -10;
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100vw;
+    height: 100vh;
+}
+
+#bg-container__video {
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: 0;
+}
+
+#bg-container__shadow-mask {
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.8;
+}

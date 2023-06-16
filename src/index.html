@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Dreative</title>
+</head>
+<body>
+    <div id="bg-container">
+      <div id="bg-container__shadow-mask"></div>
+      <video id="bg-container__video" muted loop autoplay>
+        <source src="../media/bg-video.mp4" type="video/mp4" />
+        <source src="../media/bg-video.webm" type="video/webm" />
+      </video>
+
+    </div>
+    <main>
+      <section id="front-page">
+        <header id="front-page__header">
+          <img id="front-page__header__logo" src="../media/dreative.svg" alt="">
+          <div id="front-page__header__text">
+            <p>Desata tu creatividad con la potencia de la inteligencia artificial.</p>
+            <p>Crea imágenes asombrosas y compártelas.</p>
+          </div>
+        </header>
+        <a id="front-page__start-button" href="#">
+          Comienza a crear
+        </a>
+        <a id="front-page__see-more" href="#works-page">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
+        </a>
+      </section>
+      <section id="works-page">
+        <div id="works-page__title">
+          <p id="works-page__title__text">¿Quieres ver mas imágenes como estas?</p>
+          <a href="#" id="works-page__title__button">Ver más</a>
+        </div>
+        <div id="works-page__works">
+          <div class="works-page__works__work">
+            <div>
+              <img src="../media/face.webp" alt="" class="works-page__works__work__img">
+            </div>
+          </div>
+          <div class="works-page__works__work">
+            <div>
+              <img src="../media/lamp.webp" alt="" class="works-page__works__work__img">
+            </div>
+          </div>
+          <div class="works-page__works__work">
+            <div>
+              <img src="../media/skull.webp" alt="" class="works-page__works__work__img">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
