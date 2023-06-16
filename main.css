@@ -1,6 +1,6 @@
 @font-face {
   font-family: gotham;
-  src: url(../media/Gotham-Bold.otf);
+  src: url(./media/Gotham-Bold.otf);
 }
 * {
   box-sizing: border-box;
@@ -171,7 +171,7 @@ body {
 }
 
 #works-page__title {
-  margin-top: 100px;
+  margin-top: 20px;
   padding: 20px;
   border-radius: 14px;
   display: flex;
